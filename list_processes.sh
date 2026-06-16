@@ -1,4 +1,3 @@
 #!/bin/bash
 
-echo "CMD PID PPID"
-ps -eo cmd=,pid=,ppid=
+ps -eo cmd,pid,ppid
